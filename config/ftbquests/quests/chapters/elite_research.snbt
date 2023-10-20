@@ -1,0 +1,263 @@
+{
+	id: "5772525D49F255A4"
+	group: "0C8FA6EE4828F266"
+	order_index: 3
+	filename: "elite_research"
+	title: "Elite Research"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks Tempad"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "1040AC51E7A91728"
+			tasks: [
+				{
+					id: "642E6C5B0643EED4"
+					type: "item"
+					item: "techopolis:research_papers_tempad"
+					consume_items: true
+				}
+				{
+					id: "509CCDE90DE34E80"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 8L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1B7945A26A131CC8"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p tempad"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Allows the purchasing of niter ore"
+			description: ["From the Ores Are Us questline"]
+			dependencies: ["1ADDF2856FA22558"]
+			id: "03A682276628C44C"
+			tasks: [
+				{
+					id: "4F425A8D423E2816"
+					type: "item"
+					item: "techopolis:research_papers_niter"
+					consume_items: true
+				}
+				{
+					id: "60F476635EFE18B1"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Allows the purchasing of ender ore"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "0A31B8C60B5F35A3"
+			tasks: [
+				{
+					id: "7C6162F92C610C47"
+					type: "item"
+					item: "techopolis:research_papers_ender"
+					consume_items: true
+				}
+				{
+					id: "4D4E67F762E61404"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 8L
+					consume_items: true
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks Flux Networks"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "7227DD5C35A9EF3E"
+			tasks: [
+				{
+					id: "639A26A485D2220A"
+					type: "item"
+					item: "techopolis:research_papers_flux_networks"
+					consume_items: true
+				}
+				{
+					id: "0A740F2FD8FF4893"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 8L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "782B3757CD348DB2"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p flux_networks"
+				player_command: false
+			}]
+		}
+		{
+			title: "Tech Bucks II"
+			x: 2.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks a crafting recipe for Tech Bucks"
+			dependencies: ["2509E345839FFA86"]
+			id: "160104871F0B60AC"
+			tasks: [
+				{
+					id: "76B98D99CDFF42B9"
+					type: "item"
+					item: "techopolis:research_papers_b_bucks_2"
+					consume_items: true
+				}
+				{
+					id: "4FCCD0C58C1D730C"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "592099D6BA723CE5"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p b_bucks_2"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlock Xnet"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "792B83C50FC38F7F"
+			tasks: [
+				{
+					id: "24C6B7427A7C714B"
+					type: "item"
+					item: "techopolis:research_papers_xnet"
+					consume_items: true
+				}
+				{
+					id: "1637FA49AD99B249"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "39A3666102B8EA3A"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p xnet"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks LaserIO"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "75B3714D9E28440A"
+			tasks: [
+				{
+					id: "6B2C800997284D54"
+					type: "item"
+					item: "techopolis:research_papers_laserio"
+					consume_items: true
+				}
+				{
+					id: "24B438129450D28B"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4ECCDD106E779735"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p laserio"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks angel rings, the power of flight"
+			dependencies: ["7A8CF1E50FF6B35E"]
+			id: "2D5F497D5D2E3410"
+			tasks: [
+				{
+					id: "0272F570445029AD"
+					type: "item"
+					item: "techopolis:research_papers_angel_ring"
+					consume_items: true
+				}
+				{
+					id: "64CAF2A86808B329"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 24L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "05A4D0C9FE6625F6"
+				type: "command"
+				auto: "enabled"
+				command: "/gamestage add @p angel_ring"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			shape: "square"
+			subtitle: "Unlocks Gem Ores from the shop"
+			dependencies: ["1CA69C7B4695EA81"]
+			id: "2972DB6BA0DB9583"
+			tasks: [
+				{
+					id: "0D8CCE302CC2854E"
+					type: "item"
+					item: "techopolis:research_papers_gem_ores"
+					consume_items: true
+				}
+				{
+					id: "0BBE448E70E414C6"
+					type: "item"
+					item: "opolisutilities:b_bucks"
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
